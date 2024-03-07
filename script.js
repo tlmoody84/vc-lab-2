@@ -24,34 +24,19 @@ let lower=myh1.textContent.toLowerCase()
   }
 })
 
-buttonTwo.addEventListener("click",() => {
+
+  
   
 let myList = [ "git add .", "git commit -m", "git push origin master"]
   
-                  
-function github (ulist) {
-    for (let i = 0; i < ulist.length; i++){
-    let addItems = document.createElement("li");
-    addItems.textContent = ulist[i]; 
-    ulist.appendChild(addItems); 
+buttonTwo.addEventListener("click",() => {                  
+
+    for (let i = 0; i < myList.length; i++){
+      let li = document.createElement("li");
+      li.textContent = myList[i];
+      ul.appendChild(li);
+   
   }
-} 
-
-github(myList);  
+})
 
 
- 
-  // if(current == btn1.toUpperCase())
-  //   output.push(btn1.toLowerCase())
-  // else
-  //   output.push(character.toUpperCase())
-  // h1.innerText = output.join("")}
-  
-  
-  
-  
-  
-//   h1.innerText = "MARCH 5 LAB";
-// if (h1.innerText === "MARCH 5 LAB"){
-//   ToggleEvent
-// })
