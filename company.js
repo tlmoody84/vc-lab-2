@@ -41,7 +41,7 @@ createEmployeeCards();
 
 let buttonThree = document.getElementById("btn3");
 
-let locations = ["Miami", "Los Angeles", "Los Vegas"];
+let locations = ["Miami", "Los Angeles", "Las Vegas"];
 
 buttonThree.addEventListener("click", () => {
   let ul = document.querySelector("ul")
